@@ -30,5 +30,4 @@ function ShoppingList({ items }) {
     </div>
   );
 }
-
 export default ShoppingList;
