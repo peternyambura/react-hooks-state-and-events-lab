@@ -11,7 +11,7 @@ function ShoppingList({ items }) {
   const filteredItems = selectedCategory === "All"
     ? items
     : items.filter(item => item.category === selectedCategory);
-
+//
   return (
     <div className="ShoppingList">
       <div className="Filter">
